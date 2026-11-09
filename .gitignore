@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+env/
+
+# Node
+node_modules/
+dist/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Django uploads and local database
+backend/media/*
+!backend/media/.gitkeep
+db.sqlite3
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
