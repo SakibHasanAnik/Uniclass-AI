@@ -40,7 +40,19 @@ The AI does not replace the advisor. It shows them where to look first, and ever
 
 ---
 
-## Proposed Features
+## Objectives
+
+- Keep courses, materials, assignments, marks and attendance in one system.
+- Give a separate dashboard to students, teachers, advisors and the admin.
+- Use AI to find students who may fail, every week.
+- Show clear reasons for each risk level.
+- Suggest an action to the advisor and write a draft message using AI.
+- Let the advisor save what he or she did for a student.
+- Make sure every user can see only the data that is allowed for them.
+
+---
+
+## Features
 
 ### Authentication
 - Login page with **Student / Teacher / Advisor** role selection (`/login`)
@@ -123,12 +135,36 @@ Uniclass-AI/
 ├── backend/         Django REST API (accounts, courses, grades, advising) – Backend
 ├── database/        ER diagram, table notes, sample SQL, backups   – Database
 ├── ai/              Feature extraction, model training, scoring, LLM message – AI
-├── docs/            API document, designs, screenshots, report
+├── docs/            Proposal, SRS, diagrams, API document, designs, screenshots
 ├── .gitignore
 └── README.md
 ```
 
 Each folder has its own `README.md` describing what goes inside.
+
+---
+
+## Project Documents
+
+| Phase | Document | File |
+|---|---|---|
+| Proposal | Project Proposal | [CSE4104-7E-T04_Proposal.pdf](docs/CSE4104-7E-T04_Proposal.pdf) |
+| Proposal | Team Information Sheet | [CSE4104-7E-T04_TeamInfo.pdf](docs/CSE4104-7E-T04_TeamInfo.pdf) |
+| Proposal | Initial Project Planning | [CSE4104-7E-T04_Planning.pdf](docs/CSE4104-7E-T04_Planning.pdf) |
+| SRS | Software Requirements Specification | [CSE4104-7E-T04_SRS.pdf](docs/CSE4104-7E-T04_SRS.pdf) |
+| SRS | Use Case Diagram | [CSE4104-7E-T04_UseCaseDiagram.pdf](docs/CSE4104-7E-T04_UseCaseDiagram.pdf) |
+| SRS | ER Diagram | [CSE4104-7E-T04_ERDiagram.pdf](docs/CSE4104-7E-T04_ERDiagram.pdf) |
+| SRS | System Architecture Diagram | [CSE4104-7E-T04_ArchitectureDiagram.pdf](docs/CSE4104-7E-T04_ArchitectureDiagram.pdf) |
+
+---
+
+## Project Status
+
+| Phase | Status |
+|---|---|
+| Project proposal and planning | Completed |
+| SRS, use case, ER and architecture diagrams | Completed |
+| Design and development | Next |
 
 ---
 
